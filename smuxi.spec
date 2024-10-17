@@ -4,7 +4,7 @@ Version:	0.8.9.2
 Release:	1
 License:	GPLv2
 Group:		Networking/IRC
-URL:		http://www.smuxi.org
+URL:		https://www.smuxi.org
 Source0:	http://smuxi.meebey.net/jaws/data/files/%{name}-%{version}.tar.gz
 
 BuildRequires:	intltool
