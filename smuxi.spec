@@ -7,6 +7,11 @@ Group:		Networking/IRC
 URL:		https://www.smuxi.org
 Source0:	http://smuxi.meebey.net/jaws/data/files/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	mono-devel
 BuildRequires:	mono(System.Web.Extensions)
